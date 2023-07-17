@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="spotify.png" >
+    <title>S'inscrire - Spotify</title>
+</head>
+<body>
+    <div class="content">
+        <div class="logo">
+            <img src="spotify.png" alt="">
+            <span>Spotify</span>
+        </div>
+        <p id="lab">Inscrivez-vous gratuitement pour lancer la lecture.</p>
+        <div class="form">
+            <button class="btn"><img class="img" src="facebook.png" alt="">Inscrivez-vous avec Facebook</button>
+            <button class="btn"><img class="img" src="google.png" alt="">Inscrivez-vous avec Google</button>
+        </div>
+        <div class="line">
+            <hr class="ligne">
+            <span id="span">o u</span>
+            <hr class="ligne">
+        </div>
+        <span class="span">Inscrivez-vous avec votre adresse e-mail</span>
+        <div class="info">
+        <form class="formulaire">
+            <label for="email">Quel est votre adresse e-mail ???</label><br>
+            <input class="input" type="email" id="email" name="email" placeholder="Saisissez votre adresse e-mail."><br>
+            <label for="password">Créez un mot de passe</label><br>
+            <input class="input" type="password" id="password" name="password" placeholder="Créez un mot de passe."><br>
+            <label for="name">Comment doit-on vous appeler ?</label><br>
+            <input class="input"  type="text" id="name" name="name" placeholder="Saisissez un nom de profil."><br>
+            <span id="label">Celui-ci apparaît sur votre profil.</span>
+            <label for="date">Quelle est votre date de naissance ?</label><br>
+            <div class="date">
+                <div class="item">
+                    <span>Jour</span>
+                    <input class="input" type="text" id="jour"  name="jour" placeholder="JJ">
+                </div>
+                <div class="item">
+                    <span>Mois</span>
+                    <select name="Mois" class="input" id="mois" aria-placeholder="Mois">
+                        <option value="" disabled selected>Mois</option>
+                        <option value="Janvier">Janvier</option>
+                        <option value="Février">Février</option>
+                        <option value="Mars">Mars</option>
+                        <option value="Avril">Avril</option>
+                        <option value="Mai">Mai</option>
+                        <option value="Juin">Juin</option>
+                        <option value="Juillet">Juillet</option>
+                        <option value="Août">Août</option>
+                        <option value="Septembre">Septembre</option>
+                        <option value="Octobre">Octobre</option>
+                        <option value="Novembre">Novembre</option>
+                        <option value="Décembre">Décembre</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <span>Année</span>
+                    <input type="text" id="Année" class="input" name="Année" placeholder="AAAA">
+                </div> 
+            </div>
+            <label class="sexe" for="Sexe">Quel est votre sexe ?</label>
+            <div class="radio">
+                <div class="items">
+                    <input type="radio" name="sexe" id="Masculin">
+                    <label for="Masculin">Masculin</label>
+                </div>
+                <div class="items">
+                    <input type="radio" name="sexe" id="Masculin">
+                    <label for="Féminin">Féminin</label>
+                </div>
+                <div class="items">
+                    <input type="radio" name="sexe" id="Masculin">
+                    <label for="Non binaire">Non binaire</label>
+                </div>
+                <div class="items">
+                    <input type="radio" name="sexe" id="none">
+                    <label for="none">Je ne souhaite pas l'indiquer</label>
+                </div>
+            </div>  
+            <div class="ok">
+                <div class="checked">
+                    <input type="checkbox" name="accepter" id="accepter">
+                    <label for="accepter">J'accepte de recevoir des actualités et des offres de Spotify</label>
+                </div>
+                <div class="checked">
+                    <input type="checkbox" name="partager" id="partager">
+                    <label for="partager">Partagez les données sur mon inscription avec les fournisseurs de contenu de Spotify à des fins de marketing.</label>
+                </div>
+            </div>
+        </form>
+        <div class="footer">
+            <p class="condition">En cliquant sur le bouton d'inscription, vous acceptez les <a href="#">Conditions générales</a> et la <a href="#">Politique de confidentialité de Spotify</a>.</p>
+            <input type="submit" class="btn" id="sub" value="S'inscrire">
+            <p class="connect">Vous avez déjà un compte ? <a href="#">Connectez-vous</a>.</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

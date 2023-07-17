@@ -1,0 +1,242 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img{
+    width: 30%;
+    margin: 0 10px;
+}
+
+.content{
+    margin: 10px auto;
+    width: 70%;
+}
+
+.logo{
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px
+}
+
+#lab{
+    width: 450px;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 30px auto;
+    line-height: 130%;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    height: 50px;
+    width: 394px;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.form{
+    line-height: 100%;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.btn:nth-child(1){
+    background-color: #384F81
+}
+.btn:nth-child(2){
+    background-color: white;
+    border: 2px  solid rgb(85, 83, 83);
+    color: grey;
+}
+
+.btn .img{
+    margin: 10px;
+    height: 30px;
+    width: 30px
+}
+
+.line{
+    margin: 10px auto;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(141, 136, 136);
+}
+.ligne{
+    display: flex;
+    width: 40%;
+    height: 0.1%
+}
+
+.span{
+    display: flex;
+    margin: 20px auto;
+    font-size: 18.0px;
+    font-weight: 600;
+    width: 40%
+}
+
+.formulaire label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 50%
+}
+
+.input{
+    height: 25px;
+    border: 1px solid rgb(161, 154, 154);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+#label{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    opacity: 0.7;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.9;
+
+}
+
+.item .input{
+    margin: 10px 0;
+
+}
+
+.item:nth-child(1){
+    width: 20%
+}
+
+.item:nth-child(2){
+    width: 40%
+}
+
+.item:nth-child(3){
+    width: 30%
+}
+
+#mois{
+    background-color: white;
+    height: 47px;
+    opacity: 0.7;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.radio{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    accent-color: #1ed760;
+    flex-wrap: wrap;
+}
+.items{
+    margin: 10px 0;
+}
+
+.radio label{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sexe{
+    margin: 10px 0;
+}
+.checked{
+    display: flex;
+    margin: 15px 0;
+    accent-color: #1ed760;
+}
+.checked label{
+    display: flex;
+    line-height: 150%;
+    margin: 10px 10px;
+}
+
+.ok{
+    font-size: 10px;
+    font-weight: smaller;
+}
+
+.footer{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.condition{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.condition a{
+    color: #1ed760;
+}
+
+#sub{
+    width: 50%;
+    margin: 30px auto;
+    background-color: #1ed760;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    border-style: none;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.connect a{
+    color: #1ed760;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
